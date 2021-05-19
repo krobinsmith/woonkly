@@ -1,0 +1,126 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black!important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.diceGrid{
+  margin-left: 15%;
+  width: 70%;
+}
+.diceGrid1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.x-font1{
+  color: white;
+  font-size: 40px;
+  font-family: initial;
+  font-weight: 600;
+}
+.x-font2{
+  color: white!important;
+  font-size: 30px!important;
+  font-family: initial!important;
+  font-weight: 500!important;
+}
+.x-font3{
+  color: white!important;
+  font-size: 20px!important;
+  font-family: initial!important;
+  font-weight: 500!important;
+}
+.x-font4{
+  color: #1d80ff!important;
+  font-size: 20px!important;
+  font-family: initial!important;
+  font-weight: 500!important;
+}
+.x-nav-button{
+  float: right;
+  background-color: white;
+  font-family: initial!important;
+  font-size: 18px!important;
+  font-weight: 550!important;
+}
+.x-nav-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.x-home-top-button{
+  background-color: aqua!important;
+  width: 200px;
+  margin-right: 10px!important;
+  margin-left: 10px!important;
+}
+.x-home-top-container{
+  background-color: #222222!important;
+  padding: 1%;
+}
+.x-swapCard-container{
+  border-radius: 5px;
+  background-color: #1b1d31;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.x-swapForm-input{
+  width: 100%;
+  height: 50px;
+  color: black;
+  font-size: 25px;
+  font-family: initial;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.x-swapForm-dropdown{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-family: initial;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.x-swapForm-dropdown-item{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-family: initial;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  text-align: left;
+}
+.x-swapForm-dropdown-container{
+  z-index: 20;
+  position: absolute;
+}
+.x-swapCard-submit-button{
+  width: 100%;
+  background-color: #218cff;
+  font-size: 30px;
+  color: white;
+  font-family: initial;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.x-infoCard{
+  padding: 3%;
+  background-color: #1b1d31;
+  border-radius: 5px;
+}
